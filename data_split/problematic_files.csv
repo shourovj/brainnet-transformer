@@ -1,0 +1,15 @@
+feature,cluster,label
+toy_data/s_4_feature.mat,toy_data/s_4_cluster_index.mat,1
+toy_data/s_6_feature.mat,toy_data/s_6_cluster_index.mat,2
+toy_data/s_173_feature.mat,toy_data/s_173_cluster_index.mat,1
+toy_data/s_175_feature.mat,toy_data/s_175_cluster_index.mat,2
+toy_data/s_211_feature.mat,toy_data/s_211_cluster_index.mat,2
+toy_data/s_232_feature.mat,toy_data/s_232_cluster_index.mat,2
+toy_data/s_293_feature.mat,toy_data/s_293_cluster_index.mat,2
+toy_data/s_319_feature.mat,toy_data/s_319_cluster_index.mat,2
+toy_data/s_344_feature.mat,toy_data/s_344_cluster_index.mat,1
+toy_data/s_378_feature.mat,toy_data/s_378_cluster_index.mat,1
+toy_data/s_381_feature.mat,toy_data/s_381_cluster_index.mat,2
+toy_data/s_391_feature.mat,toy_data/s_391_cluster_index.mat,2
+toy_data/s_427_feature.mat,toy_data/s_427_cluster_index.mat,2
+toy_data/s_461_feature.mat,toy_data/s_461_cluster_index.mat,1
