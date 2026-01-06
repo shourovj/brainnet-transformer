@@ -1,0 +1,14 @@
+torch
+transformers
+datasets
+peft
+accelerate
+bitsandbytes
+wandb
+einops
+scipy
+sentencepiece
+tiktoken
+matplotlib
+python-dotenv
+scikit-learn
