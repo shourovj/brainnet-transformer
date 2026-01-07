@@ -24,33 +24,24 @@ from brainnet import BrainNet, ModelConfig
 
 
 def setup_logging(log_file: str = 'train_log.txt'):
-    """
-    Setup logging to both console and file.
-    
-    Args:
-        log_file: Path to log file
-    """
+
     logger_obj = logging.getLogger(__name__)
     
-    # Remove existing handlers to avoid duplicates
     for handler in logger_obj.handlers[:]:
         logger_obj.removeHandler(handler)
     
     logger_obj.setLevel(logging.INFO)
     
-    # Log format
     log_format = logging.Formatter(
         '%(asctime)s - %(levelname)s - %(message)s',
         datefmt='%Y-%m-%d %H:%M:%S'
     )
     
-    # Console handler
     console_handler = logging.StreamHandler()
     console_handler.setLevel(logging.INFO)
     console_handler.setFormatter(log_format)
     logger_obj.addHandler(console_handler)
     
-    # File handler
     file_handler = logging.FileHandler(log_file, mode='w')
     file_handler.setLevel(logging.INFO)
     file_handler.setFormatter(log_format)
@@ -68,7 +59,6 @@ class TrainingConfig:
         if args is None:
             args = {}
         
-        # Create timestamped training directory
         timestamp = int(time.time())
         base_dir = './training_runs'
         os.makedirs(base_dir, exist_ok=True)
@@ -87,7 +77,6 @@ class TrainingConfig:
         self.lr_scheduler_patience = args.get('lr_scheduler_patience', 5)
         self.num_workers = args.get('num_workers', 4)
         
-        # Save all outputs to training directory
         self.checkpoint_path = os.path.join(self.training_dir, 'best_model.pth')
         self.log_file = os.path.join(self.training_dir, 'train_log.txt')
         self.curves_file = os.path.join(self.training_dir, 'training_curves.jpg')
@@ -119,7 +108,7 @@ class Trainer:
         self.best_val_loss = float('inf')
         self.patience_counter = 0
         
-        # Training curves
+        # Training metrics tracking
         self.train_losses: List[float] = []
         self.val_losses: List[float] = []
         self.train_accs: List[float] = []
@@ -162,7 +151,7 @@ class Trainer:
         
         pbar = tqdm(train_loader, desc="Training")
         for f_mat, c_mat, labels in pbar:
-            # Move data to device
+            
             f_mat = f_mat.to(self.device)  # [B, 400, 1632]
             c_mat = c_mat.to(self.device)  # [B, 45, 54, 45]
             labels = labels.squeeze().to(self.device)  # [B]
