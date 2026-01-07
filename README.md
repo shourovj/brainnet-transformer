@@ -224,42 +224,6 @@ dropout = 0.5             # Dropout rate
   - Test loss
   - Test accuracy and per-class accuracies
 
-## Advanced: Cross-Validation
-
-For 5-fold cross-validation with repeated runs, use the notebook implementation in `brain_net.ipynb`:
-
-```python
-# 5-Fold CV with 3 runs per fold
-NUM_FOLDS = 5
-NUM_RUNS_PER_FOLD = 3
-
-# Results aggregation by majority voting
-# Ties broken by lowest training loss
-```
-
-## Troubleshooting
-
-### Common Issues
-
-**1. "No label file found" error in data_prep.py**
-- Ensure `label.mat` is in the `toy_data/` directory
-- Check file naming convention
-
-**2. Shape mismatch errors**
-- Verify feature matrices are (400, 1632)
-- Check cluster index matrices are (45, 54, 45)
-- Run data_prep.py to identify and remove problematic files
-
-**3. CUDA out of memory**
-- Reduce `--batch_size` (try 8 or 4)
-- Reduce `--num_epochs` for testing
-- Use `--device cpu` for CPU training
-
-**4. Poor model performance**
-- Increase `--num_epochs` (default 50 may be too short)
-- Decrease `--learning_rate` for stability
-- Increase `--weight_decay` for regularization
-- Check data splits are stratified properly
 
 ## File Descriptions
 
@@ -272,22 +236,6 @@ NUM_RUNS_PER_FOLD = 3
 | `data_prep.py` | Data preparation and validation |
 | `brain_net.ipynb` | Jupyter notebook with full pipeline + CV |
 | `requirements.txt` | Python dependencies |
-
-## Citation
-
-If you use this code in your research, please cite:
-
-```bibtex
-@article{brainnet2024,
-  title={Atlas-free Brain Network Transformer},
-  author={Your Name},
-  year={2024}
-}
-```
-
-## License
-
-MIT License - see LICENSE file for details
 
 ## Support
 
