@@ -12,3 +12,4 @@ tiktoken
 matplotlib
 python-dotenv
 scikit-learn
+seaborn
