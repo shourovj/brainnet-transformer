@@ -5,6 +5,8 @@ env/
 
 # Data directories
 toy_data/
+training_runs/
+evaluation_runs/
 
 # Model checkpoints
 *.pth
@@ -43,3 +45,5 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.temp
+
+

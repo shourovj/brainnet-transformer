@@ -2,9 +2,7 @@ feature,cluster,label
 s_1_feature.mat,s_1_cluster_index.mat,2
 s_2_feature.mat,s_2_cluster_index.mat,2
 s_3_feature.mat,s_3_cluster_index.mat,2
-s_4_feature.mat,s_4_cluster_index.mat,1
 s_5_feature.mat,s_5_cluster_index.mat,2
-s_6_feature.mat,s_6_cluster_index.mat,2
 s_7_feature.mat,s_7_cluster_index.mat,1
 s_8_feature.mat,s_8_cluster_index.mat,2
 s_9_feature.mat,s_9_cluster_index.mat,1
@@ -171,9 +169,7 @@ s_169_feature.mat,s_169_cluster_index.mat,2
 s_170_feature.mat,s_170_cluster_index.mat,2
 s_171_feature.mat,s_171_cluster_index.mat,1
 s_172_feature.mat,s_172_cluster_index.mat,1
-s_173_feature.mat,s_173_cluster_index.mat,1
 s_174_feature.mat,s_174_cluster_index.mat,2
-s_175_feature.mat,s_175_cluster_index.mat,2
 s_176_feature.mat,s_176_cluster_index.mat,2
 s_177_feature.mat,s_177_cluster_index.mat,1
 s_178_feature.mat,s_178_cluster_index.mat,2
@@ -209,7 +205,6 @@ s_207_feature.mat,s_207_cluster_index.mat,2
 s_208_feature.mat,s_208_cluster_index.mat,2
 s_209_feature.mat,s_209_cluster_index.mat,2
 s_210_feature.mat,s_210_cluster_index.mat,2
-s_211_feature.mat,s_211_cluster_index.mat,2
 s_212_feature.mat,s_212_cluster_index.mat,2
 s_213_feature.mat,s_213_cluster_index.mat,2
 s_214_feature.mat,s_214_cluster_index.mat,1
@@ -230,7 +225,6 @@ s_228_feature.mat,s_228_cluster_index.mat,2
 s_229_feature.mat,s_229_cluster_index.mat,1
 s_230_feature.mat,s_230_cluster_index.mat,1
 s_231_feature.mat,s_231_cluster_index.mat,1
-s_232_feature.mat,s_232_cluster_index.mat,2
 s_233_feature.mat,s_233_cluster_index.mat,1
 s_234_feature.mat,s_234_cluster_index.mat,2
 s_235_feature.mat,s_235_cluster_index.mat,2
@@ -291,7 +285,6 @@ s_289_feature.mat,s_289_cluster_index.mat,1
 s_290_feature.mat,s_290_cluster_index.mat,2
 s_291_feature.mat,s_291_cluster_index.mat,2
 s_292_feature.mat,s_292_cluster_index.mat,2
-s_293_feature.mat,s_293_cluster_index.mat,2
 s_294_feature.mat,s_294_cluster_index.mat,2
 s_295_feature.mat,s_295_cluster_index.mat,2
 s_296_feature.mat,s_296_cluster_index.mat,2
@@ -317,7 +310,6 @@ s_315_feature.mat,s_315_cluster_index.mat,2
 s_316_feature.mat,s_316_cluster_index.mat,1
 s_317_feature.mat,s_317_cluster_index.mat,1
 s_318_feature.mat,s_318_cluster_index.mat,1
-s_319_feature.mat,s_319_cluster_index.mat,2
 s_320_feature.mat,s_320_cluster_index.mat,2
 s_321_feature.mat,s_321_cluster_index.mat,2
 s_322_feature.mat,s_322_cluster_index.mat,1
@@ -342,7 +334,6 @@ s_340_feature.mat,s_340_cluster_index.mat,1
 s_341_feature.mat,s_341_cluster_index.mat,1
 s_342_feature.mat,s_342_cluster_index.mat,1
 s_343_feature.mat,s_343_cluster_index.mat,2
-s_344_feature.mat,s_344_cluster_index.mat,1
 s_345_feature.mat,s_345_cluster_index.mat,1
 s_346_feature.mat,s_346_cluster_index.mat,2
 s_347_feature.mat,s_347_cluster_index.mat,2
@@ -376,10 +367,8 @@ s_374_feature.mat,s_374_cluster_index.mat,1
 s_375_feature.mat,s_375_cluster_index.mat,1
 s_376_feature.mat,s_376_cluster_index.mat,1
 s_377_feature.mat,s_377_cluster_index.mat,1
-s_378_feature.mat,s_378_cluster_index.mat,1
 s_379_feature.mat,s_379_cluster_index.mat,2
 s_380_feature.mat,s_380_cluster_index.mat,2
-s_381_feature.mat,s_381_cluster_index.mat,2
 s_382_feature.mat,s_382_cluster_index.mat,2
 s_383_feature.mat,s_383_cluster_index.mat,1
 s_384_feature.mat,s_384_cluster_index.mat,1
@@ -389,7 +378,6 @@ s_387_feature.mat,s_387_cluster_index.mat,2
 s_388_feature.mat,s_388_cluster_index.mat,1
 s_389_feature.mat,s_389_cluster_index.mat,1
 s_390_feature.mat,s_390_cluster_index.mat,1
-s_391_feature.mat,s_391_cluster_index.mat,2
 s_392_feature.mat,s_392_cluster_index.mat,2
 s_393_feature.mat,s_393_cluster_index.mat,2
 s_394_feature.mat,s_394_cluster_index.mat,1
@@ -425,7 +413,6 @@ s_423_feature.mat,s_423_cluster_index.mat,1
 s_424_feature.mat,s_424_cluster_index.mat,2
 s_425_feature.mat,s_425_cluster_index.mat,1
 s_426_feature.mat,s_426_cluster_index.mat,2
-s_427_feature.mat,s_427_cluster_index.mat,2
 s_428_feature.mat,s_428_cluster_index.mat,1
 s_429_feature.mat,s_429_cluster_index.mat,2
 s_430_feature.mat,s_430_cluster_index.mat,2
@@ -459,7 +446,6 @@ s_457_feature.mat,s_457_cluster_index.mat,1
 s_458_feature.mat,s_458_cluster_index.mat,2
 s_459_feature.mat,s_459_cluster_index.mat,2
 s_460_feature.mat,s_460_cluster_index.mat,1
-s_461_feature.mat,s_461_cluster_index.mat,1
 s_462_feature.mat,s_462_cluster_index.mat,1
 s_463_feature.mat,s_463_cluster_index.mat,1
 s_464_feature.mat,s_464_cluster_index.mat,1
